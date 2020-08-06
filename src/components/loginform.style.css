@@ -1,0 +1,47 @@
+.formcontainer {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: space-between; */
+}
+.inputcontainer {
+  width: 20rem;
+  background: #eeeef2;
+
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.login {
+  border: none;
+  background: #eb5733;
+
+  padding: 0.8rem 2.8rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.inputicon {
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: middle;
+  padding: 0.4rem;
+}
+
+.center {
+  align-self: center;
+}
+
+.register a {
+  text-decoration: none;
+  color: #eb5733;
+}
+
+.last {
+  align-self: center;
+  margin-top: 5.5rem;
+}

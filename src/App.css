@@ -1,0 +1,96 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffde84, #eb5733);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.right {
+  flex: 1;
+  background: #fefefe;
+  color: black;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.rightcontent {
+  padding: 1rem 4rem;
+  /* padding-top: 0px; */
+  /* margin-top: 0px; */
+  /* padding: 3rem 4.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='number'],
+input[type='select'] {
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+  background: none;
+}

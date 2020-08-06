@@ -1,0 +1,87 @@
+.left {
+  flex: 1;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 87, 51, 0.9),
+      rgba(255, 222, 132, 0.9)
+    ),
+    url(./background-image.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  justify-content: stretch;
+  height: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.leftcontent {
+  padding: 3rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #f3d581;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.para p {
+  font-size: 1rem;
+  color: white;
+  margin-top: 0em;
+  padding: 0;
+  line-height: 1.1rem;
+}
+
+.checking {
+  width: 12px;
+  height: 12px;
+  padding: 0.3rem;
+  background-color: rgba(255, 222, 132);
+  border-radius: 50%;
+  margin-right: 0.7rem;
+}
+
+.checklist {
+  margin-top: 1rem;
+  line-height: 0.5rem;
+}
+.checks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.checks p {
+  color: rgb(255, 222, 132);
+  font-weight: bold;
+  line-height: 0.1;
+}
+
+.join {
+  margin-top: 4.5rem;
+}
+.joinbutton {
+  padding: 1rem 3.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #eb5733;
+  background: wheat;
+  border-radius: 4rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.joinangle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.greater {
+  display: inline;
+}
